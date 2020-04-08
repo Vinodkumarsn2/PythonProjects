@@ -106,7 +106,7 @@ pages = StringVar()
 start = StringVar()
 end = StringVar()
 
-Label(root,text='PDF Merger IGT SWF Test', foreground='blue').grid(row=0,column=0,columnspan=4)
+Label(root,text='PDF Merger', foreground='blue').grid(row=0,column=0,columnspan=4)
 
 Button(root,text='Add PDFs', command=load).grid(row=2, column=0)
 Button(root,text='Remove PDF', command=remove).grid(row=3, column=0)
